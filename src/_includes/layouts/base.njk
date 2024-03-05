@@ -8,12 +8,10 @@
   </head>
   <body>
     <header>
-      <h1>BELM | Blog</h1>
+      <h1>{{ title }}</h1>
     </header>
     <main>
-      <h2>
-Hello Bloggers
-</h2>
+      <h2>{{ content | safe }}</h2>
     </main>
   </body>
 </html>
